@@ -56,13 +56,16 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 ; Themes
 
+projects[zen][subdir] = "stock"
 projects[zen][version] = "3.x-dev"
 
+projects[tao][subdir] = "stock"
 projects[tao][type] = theme
 projects[tao][download][type] = "git"
 projects[tao][download][url] = "git://github.com/developmentseed/tao.git"
 projects[tao][download][branch] = "drupal-7--3"
 
+projects[rubik][subdir] = "stock"
 projects[rubik][type] = theme
 projects[rubik][download][type] = "git"
 projects[rubik][download][url] = "git://github.com/developmentseed/rubik.git"
