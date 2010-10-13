@@ -3,26 +3,29 @@
 ; OpenSourcery base installation profile.
 name = OpenSourcery
 description = Select this profile to enable an OpenSourcery base-install.
-core = 6.x
+core = 7.x
 theme = doune
 
 ;Drupal core modules.
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field_ui
 dependencies[] = help
 dependencies[] = menu
-dependencies[] = taxonomy
-dependencies[] = dblog
+dependencies[] = overlay
 dependencies[] = path
+dependencies[] = rdf
+dependencies[] = taxonomy
 dependencies[] = update
 
 ; Contributed modules.
 dependencies[] = admin
 dependencies[] = advanced_help
-dependencies[] = better_formats
 dependencies[] = pathauto
 dependencies[] = path_redirect
 dependencies[] = role_delegation
 dependencies[] = token
-dependencies[] = vertical_tabs
 dependencies[] = wysiwyg
 dependencies[] = features
 dependencies[] = ctools
@@ -30,8 +33,11 @@ dependencies[] = strongarm
 dependencies[] = less
 
 ; Features
-dependencies[] = doune_theme_settings
-dependencies[] = os_admin
+; dependencies[] = doune_theme_settings
+; dependencies[] = os_admin
+
+; Custom modules.
+; dependencies[] = os_custom
 
 ; Development modules.
 dependencies[] = admin_menu

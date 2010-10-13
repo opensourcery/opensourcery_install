@@ -1,11 +1,6 @@
 <?php
 // $Id: opensourcery_install.profile 880 2009-09-04 00:10:54Z jhedstrom $
 
-if (!function_exists('profiler_v2')) {
-  require 'libraries/profiler/profiler.inc';
-}
-profiler_v2('opensourcery_install');
-
 /**
  * Implementation of hook_install().
  */
@@ -15,11 +10,8 @@ function opensourcery_install_install() {
   $theme_settings['toggle_node_info_page'] = FALSE;
   variable_set('theme_settings', $theme_settings);
 
-  // Assign sensible input filter defaults to roles.
-  _opensourcery_install_better_formats();
-
   // Initial permissions.
-  _opensourcery_install_set_permissions();
+  // @TODO _opensourcery_install_set_permissions();
 
   // Since content_profile adds a value for this variable during
   // install, we must delete it here.
@@ -28,30 +20,6 @@ function opensourcery_install_install() {
   // Cleanup after pathauto.
   variable_del('pathauto_node_page_pattern');
   variable_del('pathauto_node_story_pattern');
-}
-
-/**
- * Set site editor and administrator default input format to full HTML.
- */
-function _opensourcery_install_better_formats() {
-  $roles = array();
-  foreach (user_roles() as $rid => $name) {
-    if (in_array($name, array('site editor', 'administrator'))) {
-      $roles[] = $rid;
-      // Float admin to top, site editor 2nd highest.
-      $weight = -2 * $rid;
-      db_query("UPDATE {better_formats_defaults} SET format = %d, weight = %d WHERE rid = %d AND type = '%s'", array(':format' => 2, ':weight' => $weight, ':rid' => $rid, ':type' => 'node'));
-      db_query("UPDATE {better_formats_defaults} SET format = %d, weight = %d WHERE rid = %d AND type = '%s'", array(':format' => 2, ':weight' => $weight, ':rid' => $rid, ':type' => 'comment'));
-    }
-  }
-  $current = db_result(db_query("SELECT roles FROM {filter_formats} WHERE format = 2"));
-  if ($current) {
-    $current = explode(',', $roles);
-    $roles = array_merge($current, $roles);
-  }
-  $roles = ','. implode(',', $roles) .',';
-  // Allow site editors and administrators to use HTML;
-  db_query("UPDATE {filter_formats} SET roles = '%s' WHERE format = 2", array(':roles' => $roles));
 }
 
 /**
@@ -72,8 +40,14 @@ function _opensourcery_install_set_permissions() {
     'administer users',
     'access administration pages',
   );
-  if (!db_result(db_query("SELECT rid FROM {permission} LEFT JOIN {role} USING (rid) WHERE name = '%s'", array(':role_name' => 'administrator')))) {
-    db_query("INSERT INTO {permission} (rid, perm) VALUES (%d, '%s')", array(':rid' => $admin_rid, implode(', ', $admin_user_perms)));
+  if (!db_query("SELECT rid FROM {permission} LEFT JOIN {role} USING (rid) WHERE name = :role_name", array(':role_name' => 'administrator'))->fetchField()) {
+    $fields = array(
+      'rid' => $admin_rid,
+      'perm' => implode(', ', $admin_user_perms),
+    );
+    db_insert('permission')
+      ->fields($fields)
+      ->execute();
     drupal_set_message(t("Set sensible defaults for %role role.", array('%role' => 'administrator')));
   }
 
@@ -83,8 +57,14 @@ function _opensourcery_install_set_permissions() {
     'revert revisions',
     'view revisions',
   );
-  if (!db_result(db_query("SELECT rid FROM {permission} LEFT JOIN {role} USING (rid) WHERE name = '%s'", array(':role_name' => 'site editor')))) {
-    db_query("INSERT INTO {permission} (rid, perm) VALUES (%d, '%s')", array(':rid' => $site_editor_rid, implode(', ', $site_editor_user_perms)));
+  if (!db_query("SELECT rid FROM {permission} LEFT JOIN {role} USING (rid) WHERE name = '%s'", array(':role_name' => 'site editor'))->fetchField()) {
+    $fields = array(
+      'rid' => $site_editor_rid,
+      'perm' => $site_editor_user_perms,
+    );
+    db_insert('permission')
+      ->fields($fields)
+      ->execute();
     drupal_set_message(t("Set sensible defaults for %role role.", array('%role' => 'site editor')));
   }
 }
