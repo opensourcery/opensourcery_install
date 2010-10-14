@@ -80,8 +80,8 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 projects[zen][subdir] = "stock"
 projects[zen][version] = "2.0"
-; http://drupal.org/node/634552#comment-3244662
-projects[zen][patch][] = "http://drupal.org/files/issues/zen-634552_0.patch"
+; http://drupal.org/node/634552#comment-3573602
+projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
 
 projects[tao][subdir] = "stock"
 projects[tao][version] = "3.1"
