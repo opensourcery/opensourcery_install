@@ -30,8 +30,6 @@ dependencies[] = strongarm
 dependencies[] = less
 
 ; Features
-dependencies[] = doune_theme_settings
-dependencies[] = os_admin
 
 ; Development modules.
 dependencies[] = admin_menu
