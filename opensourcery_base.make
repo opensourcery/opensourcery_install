@@ -3,9 +3,6 @@ core = "6.x"
 api = 2
 
 ; Contrib modules
-projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0"
-
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
 
@@ -82,10 +79,4 @@ projects[zen][subdir] = "stock"
 projects[zen][version] = "2.0"
 ; http://drupal.org/node/634552#comment-3244662
 projects[zen][patch][] = "http://drupal.org/files/issues/zen-634552_0.patch"
-
-projects[tao][subdir] = "stock"
-projects[tao][version] = "3.1"
-
-projects[rubik][subdir] = "stock"
-projects[rubik][version] = "3.0-beta2"
 

@@ -35,6 +35,7 @@ dependencies[] = os_admin
 
 ; Development modules.
 dependencies[] = admin_menu
+dependencies[] = contextual
 dependencies[] = devel
 
 ; Core variables.
