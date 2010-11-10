@@ -18,7 +18,7 @@ projects[features][version] = "1.0"
 projects[features][patch][] = "http://drupal.org/files/issues/features.910604.patch"
 
 projects[less][subdir] = "contrib"
-projects[less][version] = "2.2"
+projects[less][version] = "2.3"
 
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-rc1"
