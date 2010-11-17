@@ -56,7 +56,7 @@ projects[coder][subdir] = "development"
 projects[coder][version] = "2.0-beta1"
 
 projects[simpletest][subdir] = "development"
-projects[simpletest][version] = "2.10"
+projects[simpletest][version] = "2.11"
 
 ; Profiles
 libraries[profiler][type] = "module"
