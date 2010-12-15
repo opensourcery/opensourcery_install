@@ -62,7 +62,8 @@ projects[simpletest][version] = "2.10"
 libraries[profiler][type] = "module"
 libraries[profiler][download][type] = cvs
 libraries[profiler][download][module] = contributions/modules/profiler
-libraries[profiler][download][revision] = "DRUPAL-6--2-0-BETA1"
+; Use newer than 2.0-beta1 version for http://drupal.org/node/934944
+libraries[profiler][download][revision] = ":2010-11-23"
 ; http://drupal.org/node/913938
 libraries[profiler][patch][] = "http://drupal.org/files/issues/profiler.user_access.patch"
 
