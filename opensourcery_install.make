@@ -18,16 +18,16 @@ projects[features][version] = "1.0"
 projects[features][patch][] = "http://drupal.org/files/issues/features.910604.patch"
 
 projects[less][subdir] = "contrib"
-projects[less][version] = "2.3"
+projects[less][version] = "2.4"
 
 projects[path_redirect][subdir] = "contrib"
-projects[path_redirect][version] = "1.0-rc1"
+projects[path_redirect][version] = "1.0-rc2"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.5"
 
 projects[role_delegation][subdir] = "contrib"
-projects[role_delegation][version] = "1.3"
+projects[role_delegation][version] = "1.4"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -50,7 +50,7 @@ projects[admin_menu][subdir] = "development"
 projects[admin_menu][version] = "1.6"
 
 projects[devel][subdir] = "development"
-projects[devel][version] = "1.22"
+projects[devel][version] = "1.23"
 
 projects[coder][subdir] = "development"
 projects[coder][version] = "2.0-beta1"
