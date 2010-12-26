@@ -43,7 +43,7 @@ projects[vertical_tabs][download][module] = "contributions/modules/vertical_tabs
 projects[vertical_tabs][download][revision] = "DRUPAL-6--1:2010-02-09"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.2"
 
 ; Development modules
 projects[admin_menu][subdir] = "development"
