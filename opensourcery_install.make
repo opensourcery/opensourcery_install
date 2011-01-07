@@ -76,7 +76,6 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 ; Themes
 
-projects[zen][subdir] = "stock"
 projects[zen][version] = "2.0"
 ; http://drupal.org/node/634552#comment-3573602
 projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
