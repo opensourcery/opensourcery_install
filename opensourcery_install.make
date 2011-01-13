@@ -3,15 +3,13 @@ core = "7.x"
 
 ; Contrib modules
 projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0-beta1"
+projects[admin][version] = "2.0-beta3"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.x-dev"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][type] = "module"
-projects[ctools][download][type] = "git"
-projects[ctools][download][url] = "git://github.com/sdboyer/ctools.git"
+projects[ctools][version] = "1.0-alpha2"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-alpha1"
@@ -26,7 +24,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-alpha2"
 
 projects[role_delegation][subdir] = "contrib"
-projects[role_delegation][version] = "1.x-dev"
+projects[role_delegation][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-beta1"
@@ -35,17 +33,20 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-alpha2"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.0"
 
 ; Development modules
 projects[admin_menu][subdir] = "development"
 projects[admin_menu][version] = "3.x-dev"
 
 projects[devel][subdir] = "development"
-projects[devel][version] = "1.0-beta2"
+projects[devel][version] = "1.0"
 
 projects[coder][subdir] = "development"
-projects[coder][version] = "1.0-beta4"
+projects[coder][version] = "1.0-beta6"
+
+projects[simpletest][subdir] = "development"
+projects[simpletest][version] = "2.10"
 
 ; Libraries
 
