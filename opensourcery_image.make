@@ -1,5 +1,5 @@
 ; Base image module set
-core = "6.x"
+core = "7.x"
 api = 2
 
 projects[filefield_paths][subdir] = "contrib"
