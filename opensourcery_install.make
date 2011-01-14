@@ -13,7 +13,10 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-alpha2"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-alpha3"
+projects[features][type] = "module"
+projects[features][download][type] = "cvs"
+projects[features][download][module] = "contributions/modules/features"
+projects[features][download][revision] = "DRUPAL-7--1:2010-12-26"
 
 projects[less][subdir] = "contrib"
 projects[less][version] = "2.x-dev"
@@ -55,12 +58,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 ; Themes
 
-projects[zen][subdir] = "stock"
 projects[zen][version] = "3.x-dev"
-
-projects[tao][subdir] = "stock"
 projects[tao][version] = "3.0-beta3"
-
-projects[rubik][subdir] = "stock"
 projects[rubik][version] = "4.0-beta4"
 
