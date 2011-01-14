@@ -1,5 +1,5 @@
 <?php
-// $Id: opensourcery_install.profile 880 2009-09-04 00:10:54Z jhedstrom $
+// $Id$
 
 /**
  * Implementation of hook_install().
