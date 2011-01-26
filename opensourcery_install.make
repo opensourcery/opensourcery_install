@@ -18,16 +18,16 @@ projects[features][version] = "1.0"
 projects[features][patch][] = "http://drupal.org/files/issues/features.910604.patch"
 
 projects[less][subdir] = "contrib"
-projects[less][version] = "2.3"
+projects[less][version] = "2.4"
 
 projects[path_redirect][subdir] = "contrib"
-projects[path_redirect][version] = "1.0-rc1"
+projects[path_redirect][version] = "1.0-rc2"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.5"
 
 projects[role_delegation][subdir] = "contrib"
-projects[role_delegation][version] = "1.3"
+projects[role_delegation][version] = "1.4"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -43,14 +43,14 @@ projects[vertical_tabs][download][module] = "contributions/modules/vertical_tabs
 projects[vertical_tabs][download][revision] = "DRUPAL-6--1:2010-02-09"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.2"
 
 ; Development modules
 projects[admin_menu][subdir] = "development"
 projects[admin_menu][version] = "1.6"
 
 projects[devel][subdir] = "development"
-projects[devel][version] = "1.22"
+projects[devel][version] = "1.23"
 
 projects[coder][subdir] = "development"
 projects[coder][version] = "2.0-beta1"
@@ -62,7 +62,8 @@ projects[simpletest][version] = "2.11"
 libraries[profiler][type] = "module"
 libraries[profiler][download][type] = cvs
 libraries[profiler][download][module] = contributions/modules/profiler
-libraries[profiler][download][revision] = "DRUPAL-6--2-0-BETA1"
+; Use newer than 2.0-beta1 version for http://drupal.org/node/934944
+libraries[profiler][download][revision] = ":2010-11-23"
 ; http://drupal.org/node/913938
 libraries[profiler][patch][] = "http://drupal.org/files/issues/profiler.user_access.patch"
 
@@ -75,7 +76,6 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 ; Themes
 
-projects[zen][subdir] = "stock"
 projects[zen][version] = "2.0"
 ; http://drupal.org/node/634552#comment-3573602
 projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
