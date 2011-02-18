@@ -16,7 +16,7 @@ projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][download][type] = "cvs"
 projects[features][download][module] = "contributions/modules/features"
-projects[features][download][revision] = "DRUPAL-7--1:2010-12-26"
+projects[features][download][revision] = "DRUPAL-7--1:2011-02-13"
 
 projects[less][subdir] = "contrib"
 projects[less][version] = "2.x-dev"
