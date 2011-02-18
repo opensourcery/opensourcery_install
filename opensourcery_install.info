@@ -30,7 +30,6 @@ dependencies[] = wysiwyg
 dependencies[] = features
 dependencies[] = ctools
 dependencies[] = strongarm
-dependencies[] = less
 
 ; Features
 
