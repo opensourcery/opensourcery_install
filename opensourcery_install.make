@@ -39,6 +39,8 @@ projects[wysiwyg][version] = "2.0"
 ; Development modules
 projects[admin_menu][subdir] = "development"
 projects[admin_menu][version] = "3.0-rc1"
+; Duplicate dropdown - http://drupal.org/node/1025846#comment-4111862
+projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu.1025846-4.patch"
 
 projects[devel][subdir] = "development"
 projects[devel][version] = "1.0"
