@@ -13,10 +13,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-alpha2"
 
 projects[features][subdir] = "contrib"
-projects[features][type] = "module"
-projects[features][download][type] = "cvs"
-projects[features][download][module] = "contributions/modules/features"
-projects[features][download][revision] = "DRUPAL-7--1:2011-02-13"
+projects[features][version] = "1.0-beta1"
 
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.x-dev"
