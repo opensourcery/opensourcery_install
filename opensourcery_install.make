@@ -66,6 +66,8 @@ libraries[profiler][download][module] = contributions/modules/profiler
 libraries[profiler][download][revision] = ":2010-11-23"
 ; http://drupal.org/node/913938
 libraries[profiler][patch][] = "http://drupal.org/files/issues/profiler.user_access.patch"
+; http://drupal.org/node/954996#comment-3704652
+libraries[profiler][patch][] = "http://drupal.org/files/issues/954996-profiler-trigger-faux-exportables-5.patch"
 
 ; Libraries
 
