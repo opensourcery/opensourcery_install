@@ -56,5 +56,5 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 ; Themes
 projects[tao][version] = "3.0-beta3"
-projects[rubik][version] = "4.0-beta4"
+projects[rubik][version] = "4.0-beta5"
 
