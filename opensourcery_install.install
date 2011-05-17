@@ -1,5 +1,8 @@
 <?php
-// $Id$
+/**
+ * @file
+ * Main profile installation logic.
+ */
 
 /**
  * Implementation of hook_install().

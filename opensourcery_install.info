@@ -1,5 +1,3 @@
-; $Id$
-
 ; OpenSourcery base installation profile.
 name = OpenSourcery
 description = Select this profile to enable an OpenSourcery base-install.
