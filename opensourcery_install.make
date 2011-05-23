@@ -38,9 +38,8 @@ projects[token][version] = "1.15"
 ; This version works with php 5.3
 projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][type] = "module"
-projects[vertical_tabs][download][type] = "cvs"
-projects[vertical_tabs][download][module] = "contributions/modules/vertical_tabs"
-projects[vertical_tabs][download][revision] = "DRUPAL-6--1:2010-02-09"
+projects[vertical_tabs][download][type] = "git"
+projects[vertical_tabs][download][revision] = "73f24349"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
@@ -60,14 +59,9 @@ projects[simpletest][version] = "2.10"
 
 ; Profiles
 libraries[profiler][type] = "module"
-libraries[profiler][download][type] = cvs
-libraries[profiler][download][module] = contributions/modules/profiler
-; Use newer than 2.0-beta1 version for http://drupal.org/node/934944
-libraries[profiler][download][revision] = ":2010-11-23"
+libraries[profiler][version] = "2.0-beta2"
 ; http://drupal.org/node/913938
 libraries[profiler][patch][] = "http://drupal.org/files/issues/profiler.user_access.patch"
-; http://drupal.org/node/954996#comment-3704652
-libraries[profiler][patch][] = "http://drupal.org/files/issues/954996-profiler-trigger-faux-exportables-5.patch"
 
 ; Libraries
 
