@@ -58,7 +58,6 @@ projects[simpletest][subdir] = "development"
 projects[simpletest][version] = "2.10"
 
 ; Profiles
-libraries[profiler][type] = "module"
 libraries[profiler][download][type] = "git"
 libraries[profiler][download][tag] = "6.x-2.0-beta2"
 ; http://drupal.org/node/913938
