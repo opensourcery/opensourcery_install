@@ -59,7 +59,8 @@ projects[simpletest][version] = "2.10"
 
 ; Profiles
 libraries[profiler][type] = "module"
-libraries[profiler][version] = "2.0-beta2"
+libraries[profiler][download][type] = "git"
+libraries[profiler][download][tag] = "6.x-2.0-beta2"
 ; http://drupal.org/node/913938
 libraries[profiler][patch][] = "http://drupal.org/files/issues/profiler.user_access.patch"
 
