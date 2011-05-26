@@ -28,7 +28,11 @@ projects[role_delegation][subdir] = "contrib"
 projects[role_delegation][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta2"
+projects[strongarm][type] = "module"
+projects[strongarm][download][type] = "git"
+projects[strongarm][download][revision] = "3593a0e7c1640e68f993ae007c2a43360695a167"
+; http://drupal.org/node/1062452#comment-4327034
+projects[strongarm][patch][] = "http://drupal.org/files/issues/strongarm_set_conf-needs-to-be-called-sooner-1062452--3.patch"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-beta1"
