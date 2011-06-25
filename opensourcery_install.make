@@ -10,10 +10,10 @@ projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.0-beta1"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0-alpha4"
+projects[ctools][version] = "1.0-beta1"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta2"
+projects[features][version] = "1.0-beta3"
 ; http://drupal.org/node/935152 -- Allow inaccessible items (e.g., user/login)
 ; to show up in list of exportable menu links
 projects[features][patch][] = "http://drupal.org/files/issues/features.D7.935152-5.patch"
@@ -22,10 +22,10 @@ projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta3"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0-beta1"
+projects[pathauto][version] = "1.0-rc2"
 
 projects[role_delegation][subdir] = "contrib"
-projects[role_delegation][version] = "1.0"
+projects[role_delegation][version] = "1.1"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][type] = "module"
@@ -40,7 +40,7 @@ projects[token][version] = "1.0-beta2"
 projects[token][patch][] = "http://drupal.org/files/issues/modules_token.92.patch"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.0"
+projects[wysiwyg][version] = "2.1"
 
 ; Development modules
 projects[admin_menu][subdir] = "development"
