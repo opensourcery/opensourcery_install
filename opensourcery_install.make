@@ -35,7 +35,7 @@ projects[strongarm][download][revision] = "3593a0e7c1640e68f993ae007c2a43360695a
 projects[strongarm][patch][] = "http://drupal.org/files/issues/strongarm_set_conf-needs-to-be-called-sooner-1062452--3.patch"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta2"
+projects[token][version] = "1.0-beta3"
 ; Basic Fields support. http://drupal.org/node/691078#comment-4139738
 projects[token][patch][] = "http://drupal.org/files/issues/modules_token.92.patch"
 
@@ -49,7 +49,7 @@ projects[admin_menu][version] = "3.0-rc1"
 projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu.1025846-4.patch"
 
 projects[devel][subdir] = "development"
-projects[devel][version] = "1.0"
+projects[devel][version] = "1.2"
 
 projects[coder][subdir] = "development"
 projects[coder][version] = "1.0-beta6"
