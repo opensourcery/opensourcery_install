@@ -36,8 +36,6 @@ projects[strongarm][patch][] = "http://drupal.org/files/issues/strongarm_set_con
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-beta3"
-; Basic Fields support. http://drupal.org/node/691078#comment-4139738
-projects[token][patch][] = "http://drupal.org/files/issues/modules_token.92.patch"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
