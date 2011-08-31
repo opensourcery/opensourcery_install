@@ -19,7 +19,10 @@ projects[features][version] = "1.0-beta3"
 projects[features][patch][] = "http://drupal.org/files/issues/features.D7.935152-5.patch"
 
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-beta3"
+projects[redirect][type] = "module"
+projects[redirect][download][type] = "git"
+; http://drupal.org/node/1174594
+projects[redirect][download][revision] = "5de9fd440f1c5b8955b08ea3722a0ee09c6e051e"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-rc2"
