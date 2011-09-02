@@ -44,6 +44,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
 
 ; Development modules
+projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "development"
 projects[admin_menu][version] = "3.0-rc1"
 ; Duplicate dropdown - http://drupal.org/node/1025846#comment-4111862
