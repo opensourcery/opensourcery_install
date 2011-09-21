@@ -19,7 +19,7 @@ dependencies[] = admin
 dependencies[] = advanced_help
 dependencies[] = better_formats
 dependencies[] = pathauto
-dependencies[] = path_redirect
+dependencies[] = redirect
 dependencies[] = role_delegation
 dependencies[] = token
 dependencies[] = vertical_tabs
@@ -33,6 +33,7 @@ dependencies[] = less
 
 ; Development modules.
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = devel
 
 ; Core variables.
