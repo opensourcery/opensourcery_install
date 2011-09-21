@@ -21,7 +21,7 @@ dependencies[] = update
 dependencies[] = admin
 dependencies[] = advanced_help
 dependencies[] = pathauto
-dependencies[] = path_redirect
+dependencies[] = redirect
 dependencies[] = role_delegation
 dependencies[] = token
 dependencies[] = wysiwyg
@@ -33,6 +33,7 @@ dependencies[] = strongarm
 
 ; Development modules.
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = devel
 
 ; Core variables.
