@@ -13,7 +13,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta3"
+projects[features][version] = "1.0-beta4"
 ; http://drupal.org/node/935152 -- Allow inaccessible items (e.g., user/login)
 ; to show up in list of exportable menu links
 projects[features][patch][] = "http://drupal.org/files/issues/features.D7.935152-5.patch"
