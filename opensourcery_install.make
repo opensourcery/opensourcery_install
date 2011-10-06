@@ -35,7 +35,7 @@ projects[strongarm][download][revision] = "3593a0e7c1640e68f993ae007c2a43360695a
 projects[strongarm][patch][] = "http://drupal.org/files/issues/strongarm_set_conf-needs-to-be-called-sooner-1062452--3.patch"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta5"
+projects[token][version] = "1.0-beta6"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
