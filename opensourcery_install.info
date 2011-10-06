@@ -41,6 +41,9 @@ dependencies[] = devel
 ; Change default anonymous to "Visitor".
 variables[anonymous] = Visitor
 
+; Default to United States.
+variables[site_default_country] = US
+
 ; Increase the capacity of the Drupal watchdog. The default of 1000
 ; rows overflows too quickly, sometimes losing important debug
 ; information.
@@ -70,3 +73,5 @@ variables[node_options_page][] = status
 variables[node_options_page][] = revision
 variables[comment_page] = 0
 
+; Use administrative theme when editing nodes
+variables[node_admin_theme] = 1
