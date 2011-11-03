@@ -3,12 +3,6 @@ core = "7.x"
 api = 2
 
 ; Contrib modules
-projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0-beta3"
-
-projects[advanced_help][subdir] = "contrib"
-projects[advanced_help][version] = "1.0-beta1"
-
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
 
@@ -22,20 +16,16 @@ projects[redirect][download][type] = "git"
 projects[redirect][download][revision] = "5de9fd440f1c5b8955b08ea3722a0ee09c6e051e"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0-rc2"
+projects[pathauto][version] = "1.0"
 
 projects[role_delegation][subdir] = "contrib"
 projects[role_delegation][version] = "1.1"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][type] = "module"
-projects[strongarm][download][type] = "git"
-projects[strongarm][download][revision] = "3593a0e7c1640e68f993ae007c2a43360695a167"
-; http://drupal.org/node/1062452#comment-4327034
-projects[strongarm][patch][] = "http://drupal.org/files/issues/strongarm_set_conf-needs-to-be-called-sooner-1062452--3.patch"
+projects[strongarm][version] = "2.0-beta4"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta6"
+projects[token][version] = "1.0-beta7"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
@@ -51,7 +41,7 @@ projects[devel][subdir] = "development"
 projects[devel][version] = "1.2"
 
 projects[coder][subdir] = "development"
-projects[coder][version] = "1.0-beta6"
+projects[coder][version] = "1.0"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
@@ -60,6 +50,6 @@ libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 ; Themes
-projects[tao][version] = "3.0-beta3"
+projects[tao][version] = "3.0-beta4"
 projects[rubik][version] = "4.0-beta6"
 
