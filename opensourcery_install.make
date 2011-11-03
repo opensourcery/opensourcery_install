@@ -29,6 +29,8 @@ projects[token][version] = "1.0-beta7"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
+; http://drupal.org/node/624018#comment-5098162
+projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
 
 ; Development modules
 projects[admin_menu][type] = "module"
