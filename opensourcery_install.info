@@ -18,7 +18,6 @@ dependencies[] = update
 
 ; Contributed modules.
 dependencies[] = admin
-dependencies[] = advanced_help
 dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = role_delegation
