@@ -10,29 +10,18 @@ dependencies[] = dblog
 dependencies[] = field_ui
 dependencies[] = help
 dependencies[] = menu
-dependencies[] = overlay
 dependencies[] = path
-dependencies[] = rdf
 dependencies[] = taxonomy
 dependencies[] = update
 
 ; Contributed modules.
-dependencies[] = admin
 dependencies[] = pathauto
 dependencies[] = redirect
-dependencies[] = role_delegation
 dependencies[] = token
 dependencies[] = wysiwyg
 dependencies[] = features
 dependencies[] = ctools
 dependencies[] = strongarm
-
-; Features
-
-; Development modules.
-dependencies[] = admin_menu
-dependencies[] = admin_menu_toolbar
-dependencies[] = devel
 
 ; Core variables.
 
