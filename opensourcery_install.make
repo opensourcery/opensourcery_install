@@ -6,6 +6,9 @@ api = 2
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
 
+projects[entitycache][subdir] = "contrib"
+projects[entitycache][version] = "1.1"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta4"
 
