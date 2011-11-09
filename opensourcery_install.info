@@ -3,7 +3,7 @@ name = OpenSourcery
 description = Select this profile to enable an OpenSourcery base-install.
 core = 7.x
 
-;Drupal core modules.
+; Drupal core modules.
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = dblog
