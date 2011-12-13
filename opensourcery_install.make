@@ -5,6 +5,8 @@ api = 2
 ; Contrib modules
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
+; http://drupal.org/node/1369082#comment-5356694
+projects[ctools][patch][] = "http://drupal.org/files/ctools-1369082-01.patch"
 
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = "1.1"
