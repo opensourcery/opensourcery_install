@@ -12,7 +12,7 @@ projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = "1.1"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta4"
+projects[features][version] = "1.0-beta5"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][type] = "module"
@@ -24,7 +24,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta4"
+projects[strongarm][version] = "2.0-beta5"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-beta7"
@@ -56,4 +56,3 @@ libraries[ckeditor][directory_name] = "ckeditor"
 ; Themes
 projects[tao][version] = "3.0-beta4"
 projects[rubik][version] = "4.0-beta6"
-
