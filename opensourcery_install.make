@@ -13,6 +13,8 @@ projects[entitycache][version] = "1.1"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta5"
+; http://drupal.org/node/1265168#comment-4949686
+projects[features][patch][] = "http://drupal.org/files/issues/1265168_features_roles_0.patch"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][type] = "module"
