@@ -2,6 +2,9 @@
 core = "7.x"
 api = 2
 
+projects[adaptive_image][subdir] = "contrib"
+projects[adaptive_image][version] = "1.3"
+
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable2"
 
