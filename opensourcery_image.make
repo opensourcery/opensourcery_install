@@ -18,6 +18,8 @@ projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable2"
 ; Crash during install profile installation - http://drupal.org/node/1311828
 projects[media][patch][] = "http://drupal.org/files/check_if_media_the_type_table_exists-1311828-13.patch"
+; http://drupal.org/node/1278180#comment-5085370
+projects[media][patch][] = "http://drupal.org/files/media-embed-library-resize.patch"
 
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "http://cloud.github.com/downloads/moxiecode/plupload/plupload_1_4_3_2.zip"
