@@ -6,7 +6,7 @@ projects[adaptive_image][subdir] = "contrib"
 projects[adaptive_image][version] = "1.3"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable2"
+projects[file_entity][version] = "2.0-unstable3"
 
 projects[image_resize_filter][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.13"
