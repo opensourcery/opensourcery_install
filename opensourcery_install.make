@@ -6,7 +6,7 @@ api = 2
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"
 ; http://drupal.org/node/1369082#comment-5453738
-projects[ctools][patch][] = "http://drupal.org/files/ctools-1369082-02.patch"
+; projects[ctools][patch][] = "http://drupal.org/files/ctools-1369082-02.patch"
 ; http://drupal.org/node/1120028#comment-5269384
 projects[ctools][patch][] = "http://drupal.org/files/page-manager-admin-paths_3.patch"
 
